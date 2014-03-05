@@ -1,0 +1,55 @@
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.7em;
+	color:Black;
+}
+.TitreMenu {
+	/* Anciens navigateurs */
+	color: #C40172;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	border:3px solid #9DC80B;
+	padding-top:5px;
+	padding-bottom: 5px;
+	padding-left:15px;
+	padding-right: 15px;
+	border-radius : 30px;
+	box-shadow: 5px -2px 20px #666666;
+	font-size:1.2em;
+	height:22px;
+	width :auto;
+}
+.TitreMenu:hover {
+	cursor:pointer;
+}
+.ContenuPage{
+	font-family:"Comic Sans MS", cursive;
+	font-size: 12px;
+	padding-bottom:15px;
+	padding-top:15px;
+	padding-left:15px;
+	padding-right:15px;
+	background:#A9AAAC;	
+	width:700px;
+	height:300px;
+}
+.SousMenuLaConsultation{
+	color:#000;
+	padding-left:-15px;
+	list-style:none;
+	display:none;	
+}
+.SousMenuLaConsultationListe:hover{
+	color:#656666;
+	cursor:pointer;
+}
+.SousMenRecettesListe:hover{
+	color:#656666;
+	cursor:pointer;
+}
+.SousMenuRecettes{
+	color:#000;
+	padding-left:-15px;
+	list-style:none;
+	display:none;	
+}

@@ -1,0 +1,82 @@
+/*
+** MENU ACCORDEON
+*/
+
+#sidebar ul.menu {
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+	width:200px;
+}
+
+#sidebar ul.menu li
+{
+	margin-bottom:2px;
+}
+
+#sidebar ul.menu li a
+{
+	line-height:30px;
+	text-decoration:none;
+	font-size:14px;
+	display:block;
+}
+
+#sidebar ul.menu li ul
+{
+	display:none;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#sidebar ul.menu li ul li
+{
+	margin-bottom:0px;
+}
+
+#sidebar ul.menu li.current-menu-ancestor ul
+{
+	display:block;
+}
+
+
+/*
+** COULEUR
+*/
+
+#sidebar ul.menu a
+{
+	color:black;	
+}
+
+#sidebar ul.menu li
+{
+	background-color:#C2C7FC; /* Page maitre fermée */
+}
+
+#sidebar ul.menu li:hover, #sidebar ul.menu li.current-menu-ancestor /* page maitre hover ou current page fille */
+{
+	background-color:#A2A7FC;;
+}
+
+#sidebar ul.menu li ul li
+{
+	background-color:#F2F7FC; /* Page fille */
+}
+
+#sidebar ul.menu li ul li:hover, #sidebar ul.menu li.current-menu-item a /* page fille hover ou current page */
+{
+	background-color:#E2E7FC;
+}
+
+#sidebar ul.menu li.current-menu-ancestor a /* page maitre ouverte */
+{
+	font-weight:bold;	
+}
+
+#sidebar ul.menu li.current-menu-ancestor ul li a
+{
+	font-weight:normal;
+}

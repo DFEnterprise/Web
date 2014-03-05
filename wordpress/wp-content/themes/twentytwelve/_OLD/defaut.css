@@ -1,0 +1,176 @@
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.7em;
+	color:white;
+}
+#pagePrincipale .Menu td{
+	color:#FFFFFF;
+	cursor:pointer;
+}
+#pagePrincipale .Menu td:hover{
+	background-color:#FFFFFF;
+	border:1px solid #9DC80B;
+	color:#000000;
+	cursor:pointer;
+}
+#menu
+{
+	
+	position:relative;
+	z-index: 50;
+	left:-1px;
+	border-radius:6px;
+	width: 850px;
+	height: 30px;
+	line-height: 30px;
+	background: #ffb35a url(menu/topbg1.png) left top repeat-x;
+	
+}
+
+#menu ul
+{
+	margin: 0 auto;
+}
+
+
+
+#menu ul li h4
+{
+	margin: 0;
+}
+
+#menu ul li h4 a
+{
+	font-size: 14px;
+	color: #000;
+	font-weight: bold;
+	padding: 0 15px;
+}
+
+#menu ul li a
+{
+	color: #9b2021;
+
+}
+
+#menu ul li a img
+{
+	vertical-align: middle;
+}
+
+#menu ul li a:hover
+{
+	background: url(menu/topselectionleft1.png)  no-repeat;
+}
+
+#menu ul li a span
+{
+	display: block;
+	padding: 0 15px 0 11px;
+	font-size:12px;
+}
+
+#menu ul li a:hover span
+{
+	background: url(menu/topselectionright.png) top right;
+}
+
+#menu ul.dropdown
+{
+	padding: 10px;
+	background-image: url(menu/dropdown.png);
+	overflow:hidden;
+	border-bottom: 1px solid #dc902f;
+	width: 290px;
+	
+}
+
+#menu ul.dropdown li a
+{
+	border-bottom: 1px solid #e5cd8e;
+	line-height: 30px;
+	overflow: hidden;
+	height: 30px;
+	font-size:12px;
+	text-decoration:none
+}
+
+#menu ul.dropdown li.last a
+{
+	border-bottom-width: 0;
+}
+
+#menu ul.dropdown li a:hover
+{
+	background:  no-repeat left center;
+}
+
+#menu ul li h4 a:hover
+{
+	background-image: none;
+}
+
+/* tabs
+*************************/
+
+ul.tabs
+{
+	display: table;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+
+ul.tabs li
+{
+	margin: -2px;
+	padding: 0;
+	list-style: none;
+	display: table-cell;
+	float: left;
+	position: relative;
+}
+
+ul.tabs a
+{
+	position: relative;
+	display: block;
+}
+
+/* dropdowns
+*************************/
+
+ul.dropdown
+{
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: absolute;
+	z-index: 999;
+	top: 100%;
+	width: 250px;
+	display: none;
+	left: 0;
+}
+
+ul.dropdown ul.dropdown
+{
+	top: 0;
+	left: 95%;
+}
+
+ul.dropdown li
+{
+	margin: 0;
+	padding: 0;
+	float: none;
+	position: relative;
+	list-style: none;
+	display: block;
+}
+
+ul.dropdown li a
+{
+	display: block;
+}

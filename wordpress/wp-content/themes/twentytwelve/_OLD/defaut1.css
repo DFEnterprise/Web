@@ -1,0 +1,323 @@
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.7em;
+	color:white;
+}
+#qui {
+	color: #C40172;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	border:2px solid #656666;
+	box-shadow: 5px -2px 20px #656666;
+	font-size:1.2em;
+	height: 232px;
+	width : 275px;
+}
+#IMC{
+	color: #C40172;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	border:2px solid #656666;
+	box-shadow: 5px -2px 20px #656666;
+	font-size:1.2em;
+	height: 232px;
+	width : 275px;
+}
+#consultation {
+	color: #C40172;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	border:2px solid #656666;
+	box-shadow: 5px -2px 20px #656666;
+	font-size:1.2em;
+	height: 232px;
+	width : 275px;
+}
+/*============================================================================*/
+#recettes {
+	color: #C40172;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	border:2px solid #C40172;
+	box-shadow: 5px -2px 20px #656666;
+	font-size:1.2em;
+	height: 232px;
+	width : 275px;
+}
+#temoignage{
+	color: #C40172;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	border:2px solid #656666;
+	box-shadow: 5px -2px 20px #656666;
+	font-size:1.2em;
+	height: 232px;
+	width : 275px;
+}
+#contact {
+	color: #C40172;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	border:2px solid #656666;
+	box-shadow: 5px -2px 20px #656666;
+	font-size:1.2em;
+	height: 232px;
+	width : 275px;
+}
+/*============================================================================*/
+
+pagePrincipale .Menu td:hover{
+	Color:#C40172;
+	
+	box-shadow: 0px 0px  40px #000000;
+	height: 200px;
+	width : 260px;
+	font-size:1.2em;
+   
+}
+#qui{
+	background-image:url(images/qui%20suis%20je%202.jpg);
+	background-size:100%;
+	
+}
+#consultation{
+	background-image:url(images/la%20consultationss.jpg);
+	background-size:311px 260px;
+}
+#IMC{
+	background-image:url(images/imc.jpg);
+	background-size:100%;
+}
+#recettes{
+	background-image:url(images/recettes.jpg);
+	background-size:100%;
+	border-color:#C40172;
+	}
+#temoignage{
+	background-image:url(images/temoignages%202.jpg);
+	background-size:311px 260px;
+	border-color:#C40172;
+	}
+#contact{
+	background-image:url(images/contacts%20et%20liens.jpg);
+	background-size:100%;
+	border-color:#C40172;
+	}
+#recettes:hover{
+	background:none;
+	}
+#temoignage:hover{
+	background:none;
+	}
+#contact:hover{
+	background:none;
+	}
+#qui:hover{
+	background:none;
+}
+#consultation:hover{
+	background-image:url(images/la%20consultation.jpg);
+	background-size:311px 260px;
+}
+#IMC:hover{
+	background:none;
+}
+
+
+#pagePrincipale .Menu td:hover a{
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	cursor:pointer;
+	display:block;
+}
+.ImageMenu:hover{
+		opacity:0.2;
+		display:none;
+		
+}
+
+.TitreMenu{
+	cursor:pointer;
+	color:#C40172;
+	
+	opacity:1;
+	}
+.SousMenu:hover{
+	color:#656666;
+	font-size:1.05em;
+	
+}
+.SousMenu{
+	
+	font-size:0.95em;
+	color:black;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color:black;
+	display:none;
+}
+
+/*
+
+#menu
+{
+	
+	position:relative;
+	z-index: 50;
+	left:-1px;
+	border-radius:6px;
+	/*width: 850px;
+	height: 30px;*/
+	/*line-height: 30px;
+	background: #ffb35a url(menu/topbg1.png) left top repeat-x;
+	
+}*/
+
+#menu ul
+{
+	margin: 0 auto;
+}
+
+
+
+#menu ul li h4
+{
+	margin: 0;
+}
+
+#menu ul li h4 a
+{
+	font-size: 14px;
+	color: #000;
+	font-weight: bold;
+	padding: 0 15px;
+}
+
+#menu ul li a
+{
+	color: #9b2021;
+
+}
+
+#menu ul li a img
+{
+	vertical-align: middle;
+}
+
+#menu ul li a:hover
+{
+	background: url(menu/topselectionleft1.png)  no-repeat;
+}
+
+#menu ul li a span
+{
+	display: block;
+	padding: 0 15px 0 11px;
+	font-size:12px;
+}
+
+#menu ul li a:hover span
+{
+	background: url(menu/topselectionright.png) top right;
+}
+
+#menu ul.dropdown
+{
+	padding: 10px;
+	background-image: url(menu/dropdown.png);
+	overflow:hidden;
+	border-bottom: 1px solid #dc902f;
+	width: 290px;
+	
+}
+
+#menu ul.dropdown li a
+{
+	border-bottom: 1px solid #e5cd8e;
+	line-height: 30px;
+	overflow: hidden;
+	height: 30px;
+	font-size:12px;
+	text-decoration:none
+}
+
+#menu ul.dropdown li.last a
+{
+	border-bottom-width: 0;
+}
+
+#menu ul.dropdown li a:hover
+{
+	background:  no-repeat left center;
+}
+
+#menu ul li h4 a:hover
+{
+	background-image: none;
+}
+
+/* tabs
+*************************/
+
+ul.tabs
+{
+	display: table;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+
+ul.tabs li
+{
+	margin: -2px;
+	padding: 0;
+	list-style: none;
+	display: table-cell;
+	float: left;
+	position: relative;
+}
+
+ul.tabs a
+{
+	position: relative;
+	display: block;
+}
+
+/* dropdowns
+*************************/
+
+ul.dropdown
+{
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: absolute;
+	z-index: 999;
+	top: 100%;
+	width: 250px;
+	display: none;
+	left: 0;
+}
+
+ul.dropdown ul.dropdown
+{
+	top: 0;
+	left: 95%;
+}
+
+ul.dropdown li
+{
+	margin: 0;
+	padding: 0;
+	float: none;
+	position: relative;
+	list-style: none;
+	display: block;
+}
+
+ul.dropdown li a
+{
+	display: block;
+}
