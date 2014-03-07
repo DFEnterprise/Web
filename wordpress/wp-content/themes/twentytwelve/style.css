@@ -1911,3 +1911,45 @@ ul.accordion li .bgDescription{
     display:none;
 }/* CSS Document */
 
+#menutest
+{
+ width: 170px;
+ background-color: #FFFF99; 
+ border: 1px solid #000000;
+}
+ 
+#menutest h2
+{
+ color: #0000EE;
+ text-align: center;
+ font-size: 15px;
+}
+#menutest li
+{
+ list-style-type: none;
+ list-style-position: inside;
+}
+#centretest
+{
+ height: 50px;
+ width: 50px;
+ margin: auto;
+ border: 1px solid #BBBBBB;
+}
+#resultat .photo
+{
+	position: absolute;
+	bottom: 0;
+}
+
+.itemtest
+{
+ position: absolute;
+}
+
+#fleche
+{
+	position: absolute;
+	bottom: 20px;
+	left: 0px;
+}

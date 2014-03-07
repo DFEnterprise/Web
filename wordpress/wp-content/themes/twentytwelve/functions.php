@@ -512,8 +512,12 @@ add_action( 'customize_preview_init', 'twentytwelve_customize_preview_js' );
 function jmscripts() {
 wp_register_script('handle', get_template_directory_uri() . '/js/menu-accordeon.js', false, null, false); 
 wp_register_script('handle2',get_template_directory_uri() . '/js/slimbox2.js', false, null, false);
+wp_register_script('handle3',get_template_directory_uri() . '/js/calculIMC.js', false, null, false);
+wp_register_script('handle4',get_template_directory_uri() . '/js/menutest.js', false, null, false);
 wp_enqueue_script('handle'); 
 wp_enqueue_script('handle2');
+wp_enqueue_script('handle3'); 
+wp_enqueue_script('handle4'); 
 }
 add_action('wp_enqueue_scripts', 'jmscripts', 100);
 
